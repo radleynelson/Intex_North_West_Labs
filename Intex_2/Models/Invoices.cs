@@ -7,8 +7,8 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Invoice")]
-    public class Invoice
+    [Table("Invoices")]
+    public class Invoices
     {
         [Key]
         public int invoiceNo { get; set; }

@@ -7,8 +7,8 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Sample")]
-    public class Sample
+    [Table("Samples")]
+    public class Samples
     {
         [Key]
         public int compoundSequenceCode { get; set; }

@@ -7,13 +7,11 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Test")]
-    public class Test
+    [Table("Triggers")]
+    public class Triggers
     {
         [Key]
-        public int userID { get; set; }
-        public string userName { get; set; }
-        public string password { get; set; }
-        public string role { get; set; }
+        public int triggerID { get; set; }
+        public string triggerDescription { get; set; }
     }
 }

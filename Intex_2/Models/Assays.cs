@@ -7,8 +7,8 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Assay")]
-    public class Assay
+    [Table("Assays")]
+    public class Assays
     {
         [Key]
         public int assayID { get; set; }
