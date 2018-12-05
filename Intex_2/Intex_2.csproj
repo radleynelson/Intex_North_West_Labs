@@ -242,20 +242,26 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestingController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DAL\DefaultConnection.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+
     <Compile Include="Models\Assays.cs" />
+    <Compile Include="Models\Assays_Tests.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Compounds.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Invoices.cs" />
     <Compile Include="Models\Tests.cs" />
-    <Compile Include="Models\Test_Samples.cs" />
     <Compile Include="Models\Triggers.cs" />
+    <Compile Include="Models\Materials_Used.cs" />
+    <Compile Include="Models\tableAttribute.cs" />
+    <Compile Include="Models\Test_Samples.cs" />
+    <Compile Include="Models\Triggers_Tests.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\Work_Orders.cs" />
     <Compile Include="Models\Materials.cs" />
