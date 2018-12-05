@@ -7,14 +7,13 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Result")]
-    public class Result
+    [Table("Tests")]
+    public class Tests
     {
         [Key]
-        public int resultID { get; set; }
-
-        public string quantitativeResults { get; set; }
-
-        public string qualitativeResults { get; set; }
+        public int userID { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
+        public string role { get; set; }
     }
 }
