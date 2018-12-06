@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Intex_2.DAL;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -13,6 +15,7 @@ namespace Intex_2
     {
         protected void Application_Start()
         {
+            Database.SetInitializer<DefaultConnection>(null);
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

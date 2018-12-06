@@ -14,7 +14,7 @@ namespace Intex_2.Models
         public int invoiceNo { get; set; }
         public Nullable<int> clientID { get; set; }
         public Nullable<int> cost { get; set; }
-        public string salesTax { get; set; }
+        public double salesTax { get; set; }
         public Nullable<int> totalCost { get; set; }
         public Nullable<int> advancedMoneyReduction { get; set; }
         public Nullable<System.DateTime> dateDue { get; set; }

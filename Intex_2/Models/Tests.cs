@@ -11,9 +11,8 @@ namespace Intex_2.Models
     public class Tests
     {
         [Key]
-        public int userID { get; set; }
-        public string userName { get; set; }
-        public string password { get; set; }
-        public string role { get; set; }
+        public int testID { get; set; }
+        public string testDescription { get; set; }
+        public double price { get; set; }
     }
 }

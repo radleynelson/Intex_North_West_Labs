@@ -7,11 +7,14 @@ using System.Web;
 
 namespace Intex_2.Models
 {
-    [Table("Test_Samples")]
-    public class Test_Samples
+    [Table("Tests_Samples")]
+    public class Tests_Samples
     {
         [Key]
+        [Column(Order = 1)]
         public int testID { get; set; }
+        [Key]
+        [Column(Order = 2)]
         public Nullable<int> compoundSequenceCode { get; set; }
         public Nullable<int> resultID { get; set; }
         public Nullable<double> manHours { get; set; }
